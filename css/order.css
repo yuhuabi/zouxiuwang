@@ -1,0 +1,160 @@
+
+/*订单页面的CSS*/
+/*中心部分*/
+.order-cent{
+    width:100%;
+    position:absolute;
+    top:43px;
+    bottom:70px;
+    overflow-y:scroll;
+}
+/*地址*/
+.ads-area{
+    width:100%;
+    height:100px;
+    border:1px solid red;
+    border-image:url(http://www.w3school.com.cn/i/border.png) 13 13 13 13 /10 10 10 10/10px 10px 10px 10px round;
+    position: absolute;
+    top:15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.ads-area p{
+    width:100%;
+    height:20px;
+    line-height: 20px;
+    font-size:15px;
+}
+.ads-area p em{
+    color:slateblue;
+}
+/*订单列表*/
+.order-list{
+    width:100%;
+    position: absolute;
+    top:135px;
+}
+.order-list ul li {
+    width:100%;
+    height:100px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.order-left{
+    width:90px;
+    height:90px;
+    border:1px solid #ccc;
+}
+.order-left img{
+    width:100%;
+    height:100%;
+}
+.order-center{
+    width:150px;
+    height:100%;
+}
+.order-center p{
+    padding-top:10px;
+    width:100%;
+    height:50%;
+    font-size:12px;
+}
+.order-right{
+    width:50px;
+    height:100%;
+}
+.order-right p{
+    width:100%;
+    height:50%;
+    font-size:15px;
+}
+.order-info{
+    width:100%;
+    height:160px;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    margin-top:10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.order-info p{
+    width:100%;
+    height:20px;
+    line-height:20px;
+    font-size:15px;
+    display: flex;
+    justify-content: space-between;
+}
+.color{
+    color:sandybrown;
+}
+.order-info textarea{
+    border:1px solid #ccc;
+    width:100%;
+    height:40px;
+}
+.card{
+    width:100%;
+    height:40px;
+    border-top:1px solid #ccc;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card .order-card{
+    width:120px;
+    display: flex;
+    align-items: center;
+}
+.card .order-btn{
+    width:40px;
+    height:20px;
+    border:2px solid #ccc;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    box-shadow: inset 0 0 2px #ccc;
+}
+.order-cricle{
+    width:18px;
+    height:18px;
+    border:1px solid #ccc;
+    border-radius: 9px;
+    background-color: #747474;
+    margin-left:1px;
+    transition: .5s;
+
+}
+.change-cricle{
+    margin-left:17px;
+}
+.order-footer{
+    width:100%;
+    height:70px;
+    position: absolute;
+    bottom:0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size:15px;
+    border-top:1px solid #ccc;
+}
+.order-footer em{
+    color:salmon;
+}
+/*提交订单*/
+.submit{
+    width:100px;
+    height:30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    color:white;
+    background-color: sandybrown;
+}

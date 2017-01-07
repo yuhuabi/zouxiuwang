@@ -16,7 +16,7 @@ class Header extends Component {
         return <div className="header">
             <ul className="header-list">
                 <li className="header-btn">
-                    {this.props.hasBack?<a href={()=>window.history.go(-1)}>{"<"}</a>:""}
+                    {this.props.hasBack?<a onClick={()=>window.history.go(-1)}>{"<"}</a>:""}
 
                 </li>
                 <li className="header-tit">{this.props.title}</li>
@@ -43,7 +43,7 @@ class Footer extends Component {
                 {
                     this.props.footerData.map((ele,i)=><li key={i}>
                         <i className={"iconfont "+ele.className}></i>
-                        <a className={i==this.props.active?"active":""}>{ele.content}</a>
+                        <a href={ele.path} className={i==this.props.active?"active":""}>{ele.content}</a>
 
                     </li>)
                 }
@@ -56,23 +56,28 @@ Footer.defaultProps={
     footerData:[
         {
             content:"首页",
-            className:"icon-shouye-copy"
+            className:"icon-shouye-copy",
+            path:"/"
         },
         {
             content:"分类",
-            className:"icon-fenlei"
+            className:"icon-fenlei",
+            path:"#/list"
         },
         {
             content:"购物车",
-            className:"icon-gouwuche"
+            className:"icon-gouwuche",
+            path:"#/cart"
         },
         {
             content:"我的秀",
-            className:"icon-wode5"
+            className:"icon-wode5",
+            path:"#/myshow"
         },
         {
             content:"更多",
-            className:"icon-gengduo"
+            className:"icon-gengduo",
+            path:"#/more"
         }
     ]
 

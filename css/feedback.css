@@ -1,0 +1,30 @@
+#feedback-page .backtext{
+	height: 200px;
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#feedback-page .feedbackList{
+	width: 100%;
+	padding: 30px 10%;
+}
+#feedback-page .backtext textarea{
+	padding: 5px;
+	height: 100%;
+	width: 100%;
+}
+#feedback-page .feedbackList li{
+	width: 100%;
+
+}
+#feedback-page .submint{
+	width: 100%;
+	text-align: center;
+	height: 40px;
+	color: #fff;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#6eb92b), to(#6eb92b)) ;
+	margin-top: 20px;
+}

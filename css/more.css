@@ -1,0 +1,15 @@
+#more-page ul{
+	width:100%;
+}
+#more-page .moreList li{
+	width:100%;
+	height: 50px;
+	line-height: 50px;
+	padding: 0px 15px;
+	border-bottom: 1px #ccc solid;
+	background: #fff;
+}
+#more-page .moreList a{
+	display: block;
+	height: 100%;
+}

@@ -1,0 +1,51 @@
+#register-page .registerList{
+	width: 80%;
+	margin: 0 auto;
+}
+.clear:after{
+	height: 0;
+	content: '.';
+	clear: both;
+	visibility: hidden;
+	display: block;
+}
+.clear{
+	zoom: 1;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+#register-page .inputli{
+	background: #fff;
+	height: 43px;
+	padding: 15px 5px;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	margin-bottom: 20px;
+	position: relative;
+}
+#register-page .user{
+	margin-top: 20px;
+}
+#register-page .registerBtn{
+	width: 100%;
+	text-align: center;
+	height: 43px;
+	color: #fff;
+	margin-top: 50px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#d60808), to(#a90506)) ;
+}
+#register-page .inputtext{
+	
+	width: 70%;
+}
+#register-page .information{
+	position: absolute;
+	top: 46px;
+	color: red;
+}

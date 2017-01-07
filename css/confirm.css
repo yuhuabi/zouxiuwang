@@ -1,0 +1,9 @@
+.ads-info {width:100%;height:120px; padding:20px;border:1px solid #a71d5d;}
+.confirm-footer{position:absolute;bottom:0px;background:#bd2c00;width:100%;height:60px;padding:15px;}
+.confirm-footer p {float:left;}
+.confirm-footer p span {height:30px;float:left;line-height: 30px;}
+.confirm-footer button{width:80px;height:30px;float:right;background:orange}
+.order-price{width:100%;height:85px;padding:20px;border:1px solid orangered;margin-bottom:10px;}
+.order-price p{height:20px; font-size:12px;line-height:20px;margin-bottom:5px;}
+.order-price p em{float:right;}
+.user-info{width:100%;height:60px;border:1px solid silver;}

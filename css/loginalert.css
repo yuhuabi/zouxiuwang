@@ -1,0 +1,15 @@
+.login-alert{
+	width: 24%;
+	text-align: center;
+	height: 30px;
+	padding: 9px;
+	background: rgba(0,0,0,0.6);
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	color: #fff;
+	position: fixed;
+	top: 25%;
+	left: 38%;
+	
+	
+}

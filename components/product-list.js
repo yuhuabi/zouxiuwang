@@ -11,12 +11,15 @@ class  ProductList extends Component {
          super(props)
      }
      render(){
+         console.log(this.props.productData)
          return (
              <ul className="product-list">
                  {
                      this.props.productData.map((ele,i)=><li key={i}>
-                         <img src={ele.goodsListImg}/>
-                         <p>{ele.goodsName}</p>
+                         <a href={"#/detail/"+ele.goodsID}><img src={ele.goodsListImg}/></a>
+                         <p className="tit">{ele.goodsName}</p>
+                         <p className="new-price">￥<em>{ele.price}</em></p>
+                         <p className="old-price">￥999</p>
                      </li>)
                  }
              </ul>

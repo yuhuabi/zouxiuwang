@@ -1,0 +1,15 @@
+.total-info{width:100%;height:30px;line-height:30px;font-size:14px;padding:0 30px;}
+.total-info span em {color:orangered}
+.total-info .total-num {margin-right:40px;}
+.total-info .total-prc {}
+
+
+
+/*状态按钮*/
+.order-btn {width:100%;padding:0 30px;height:30px;line-height:30px;font-size:12px;
+    position: relative;}
+.order-btn em{color:orangered;margin-right:10px;}
+.order-btn .btn-one{color:#0086b3;height:30px;
+    line-height:30px;width:80px;text-align:center;background:#55a532;position:absolute;left:80px;}
+.order-btn .btn-two {color:#0086b3;height:30px;
+    line-height:30px;width:80px;text-align:center;background:#55a532;position:absolute;right:30px;}

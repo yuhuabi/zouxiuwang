@@ -1,0 +1,83 @@
+#login-page{}
+.clear:after{
+	height: 0;
+	content: '.';
+	clear: both;
+	visibility: hidden;
+	display: block;
+}
+.clear{
+	zoom: 1;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+#login-page .loginList {
+	width: 100%;
+	margin: 0 auto;
+	padding:0px 10%;
+}
+ #login-page .loginList li{
+	 width:100%;
+	height: 53px;
+	
+}
+#login-page .loginList .inputtext{
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	padding: 15px 5px;
+	
+}
+#login-page .loginList .user{
+	margin-top: 16px;
+	position: relative;
+	
+}
+#login-page .loginList .psw{
+	margin-top: 20px;
+	
+	position: relative;
+}
+#login-page .showPassword,.remeberPassword{
+	padding: 15px 5px;
+	
+}
+#login-page .showPassword{
+	margin-top: 10px;
+}
+#login-page .forgetpsw{
+	margin-left: 5px;
+}
+#login-page .Btn{
+	margin-bottom: 10px;
+	
+}
+#login-page .btn{
+	width: 100%;
+	text-align: center;
+	height: 100%;
+	color: #fff;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+}
+#login-page .login-Btn{
+	margin-top: 30px;
+}
+#login-page .loginBtn{
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#d60808), to(#a90506)) ;
+}
+#login-page .registerBtn{
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#5d5d5d), to(#272727)) ;
+}
+#login-page .information{
+	position: absolute;
+	top: 45px;
+	color: red;
+}

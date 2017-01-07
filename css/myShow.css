@@ -1,0 +1,57 @@
+.clear{
+	zoom: 1;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clear:after{
+	height: 0;
+	content: '.';
+	clear: both;
+	visibility: hidden;
+	display: block;
+}
+#myshow-page .myshowList{
+	width: 80%;
+	margin: 50px auto;
+}
+#myshow-page .Avatar{
+	height: 100px;
+	width: 100px;
+	overflow: hidden;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#myshow-page .Avatar img{
+	height: 100%;
+	width: 100%;
+	
+}
+#myshow-page .userinfo{
+	margin: 30px 20px 10px;
+}
+#myshow-page .userName{
+	margin-bottom: 20px;
+}
+#myshow-page .userList{
+	width:80%;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	background: #fff;
+	margin-top: 50px;
+	
+}
+#myshow-page .userList li{
+	width:100%;
+	height: 50px;
+	padding: 18px 15px;
+	border-bottom: 1px #ccc solid;
+	
+}
+#myshow-page .userList li:nth-child(4){
+	border-bottom:0
+}

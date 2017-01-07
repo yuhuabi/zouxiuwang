@@ -1,0 +1,7 @@
+.order-product-info li{width:100%;height:120px;padding:15px;border-top:1px solid darkolivegreen;border-bottom:1px solid darkolivegreen;}
+.order-product-info img{width:100px;height:80px;float:left;margin-right:20px;}
+.order-product-info .text-info{float:left;font-size:14px;
+    color: #484850;overflow: hidden ;width:50%;}
+.order-product-info .num-info{float:right;font-size:14px;}
+.order-product-info .num-info p{margin-bottom:10px;}
+.order-product-info {}

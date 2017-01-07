@@ -1,0 +1,114 @@
+html{
+    font-size: 31.25vw;
+}
+.sub-car{
+    width:100%;
+    height:50px;
+    background-color: #747474;
+    font-size:13px;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    top:43px;
+}
+.num,.total-num{
+    color:#e1e1e1;
+}
+.total-num{
+    padding-left:10px;
+}
+b{
+    color:red;
+}
+.check{
+    height:30px;
+    border:2px solid #941615;
+    margin-top:8px;
+    line-height: 30px;
+    margin-right:12px;
+    border-radius: 10px;
+    display: inline-block;
+    color:white;
+}
+/**********购物车列表部分***************/
+.cart-list{
+    width:100%;
+    height:5.68rem;
+    position: relative;
+}
+.carts-list{
+    width:100%;
+    position: absolute;
+    top:93px;
+    bottom:48px;
+    overflow-y:scroll;
+}
+.list{
+    padding:0 5px;
+}
+.list-item{
+    width:100%;
+    height:120px;
+    border-bottom: 1px solid #adadad;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.list-left{
+    width:100px;
+    height:100px;
+}
+.list-left img{
+    width:100%;
+    height:100%;
+}
+.list-center{
+    width:160px;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding:8px 0;
+}
+.list-right{
+    width:40px;
+    height:100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding:8px 0;
+}
+.name{
+    height:60px;
+    width:100%;
+    font-size: 14px;
+}
+.price{
+    width:100%;
+    height:20px;
+    line-height: 20px;
+}
+.price b{
+    color:#ac1f1f;
+}
+.all-btn{
+    width:100%;
+    height:30px;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    width:25px;
+    height: 20px;
+    background-color: #959595;
+    border-radius:2px;
+    color:white;
+    outline:none;
+}
+.delete{
+    text-decoration: none;
+    text-align: center;
+}
